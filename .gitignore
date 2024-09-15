@@ -8,6 +8,7 @@ __pycache__/
 
 # custom
 resources/
+.idea/
 
 # Distribution / packaging
 .Python
