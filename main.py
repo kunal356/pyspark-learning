@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
     # conf_out = spark.sparkContext.getConf()
     # logger.info(conf_out.toDebugString())
+
     survey_df = load_survey_df(spark, sys.argv[1])
     partitioned_df = survey_df.repartition(2)
     count_df = count_by_country(survey_df=partitioned_df)
