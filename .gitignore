@@ -10,6 +10,7 @@ __pycache__/
 resources/
 .idea/
 .vscode/
+dataSink/
 
 # Distribution / packaging
 .Python
