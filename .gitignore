@@ -11,6 +11,8 @@ resources/
 .idea/
 .vscode/
 dataSink/
+metastore_db/
+spark-warehouse/
 
 # Distribution / packaging
 .Python
